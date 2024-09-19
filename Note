@@ -1,6 +1,10 @@
-Creating a project
-Adding collaborator
-Creating an issue
-Solving an issue
-Managing branch/fork
-Committing new versions from different collaborators
+package MyBuilderPattern;
+
+public class Bottle implements Packing {
+	
+	@Override
+	public String pack() {
+		return "Bottle";
+	}
+
+}
